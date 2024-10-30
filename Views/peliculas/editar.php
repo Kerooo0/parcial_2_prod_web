@@ -24,7 +24,7 @@
                         <div class="form-group">
                             <label for="actor_principal" class="control-label">Actor Principal</label>
                             <input class="form-control" value="<?php echo $datos['datos']['actor_principal']; ?>" name="actor_principal" type="text" required>
- </div>
+                        </div>
                         <div class="form-group">
                             <label for="sinopsis" class="control-label">Sinopsis</label>
                             <textarea class="form-control" name="sinopsis" required><?php echo $datos['datos']['sinopsis']; ?></textarea>
@@ -32,7 +32,7 @@
                         <div class="form-group">
                             <label for="categoria_id" class="control-label">Categoría</label>
                             <select class="form-control" name="categoria_id" required>
-                                <?php while($row = mysqli_fetch_array($categorias)){ ?>
+                                <?php while($row = mysqli_fetch_array($datos['categorias'])){ ?>
                                     <option value="<?php echo $row['id']; ?>" <?php if($row['id'] == $datos['datos']['categoria_id']) echo 'selected'; ?>><?php echo $row['nombre']; ?></option>
                                 <?php } ?>
                             </select>
@@ -43,7 +43,7 @@
                         </div>
                         <input value="<?php echo $datos['datos']['id']; ?>" name="id" type="hidden">
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success">Editar</button>
+                            <button type="submit" class="btn btn-success">Guardar</button>
                             <button type="reset" class="btn btn-warning">Borrar</button>
                         </div>
                     </form>

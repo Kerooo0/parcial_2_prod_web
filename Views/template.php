@@ -55,7 +55,7 @@
 
 		public function __destruct(){
 ?>
-	<footer class="navbar-fixed-bottom">
+	<footer class="navbar-fixed-bottom" >
 		Produccion Web
 	</footer>
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>

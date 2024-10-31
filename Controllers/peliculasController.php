@@ -26,7 +26,7 @@ class peliculasController {
             $limite = 700;
             if(in_array($_FILES['imagen']['type'], $permitidos) && $_FILES['imagen']['size'] <= $limite * 1024){
                 $nombre = date('is') . $_FILES['imagen']['name'];
-                $ruta = "Views" . DS . "_template". DS . "imagenes" . DS . "avatars" . DS . $nombre;
+                $ruta = "Views" . DS . "_template". DS . "imagenes" . DS . "peliculas" . DS . $nombre;
                 move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
                 $this->pelicula->set("imagen", $nombre);
             }
@@ -52,7 +52,7 @@ class peliculasController {
             $limite = 700;
             if(in_array($_FILES['imagen']['type'], $permitidos) && $_FILES['imagen']['size'] <= $limite * 1024){
                 $nombre = date('is') . $_FILES['imagen']['name'];
-                $ruta = "Views" . DS . "_template". DS . "imagenes" . DS . "avatars" . DS . $nombre;
+                $ruta = "Views" . DS . "_template". DS . "imagenes" . DS . "peliculas" . DS . $nombre;
                 move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
                 $this->pelicula->set("imagen", $nombre);
             }

@@ -43,7 +43,39 @@ CREATE TABLE `peliculas` (
 --
 
 INSERT INTO `peliculas` (`id`, `nombre`, `director`, `fecha`, `actor_principal`,`sinopsis`,`categoria_id`, `imagen`) VALUES
-(1, 'SAW II', 'Darren Lynn Bousman', '2022-06-01 22:22:32', "Donnie Wahlberg",'A detective and his team must rescue eight people trapped in a factory by the twisted serial killer known as Jigsaw.', 1 ,'1611sonic.png');
+(1, 'SAW II', 'Darren Lynn Bousman', '2005-10-28', "Donnie Wahlberg",
+'Un detective y su equipo deben rescatar a ocho personas atrapadas en una fábrica por el retorcido asesino en serie conocido como Jigsaw.', 1 ,'Saw.jpg'), 
+(2, 'El Padrino', 'Francis Ford Coppola', '1972-03-24', "Marlon Brando",
+'La historia de la familia Corleone, un poderoso clan mafioso en Nueva York.', 2 ,'elpadrino.jpeg'), 
+(3, 'Inception', 'Christopher Nolan', '2010-07-16', "Leonardo DiCaprio",
+'Un ladrón que roba secretos en los sueños es dado una tarea casi imposible: implantar una idea en la mente de un objetivo.', 3 ,'inception.jpg'), 
+(4, 'La La Land', 'Damien Chazelle', '2016-12-09', "Ryan Gosling",
+'Un músico y una actriz persiguen sus sueños en Los Ángeles, enfrentando los desafíos del amor y la ambición.', 4 ,'lalaland.jpeg'), 
+(5, 'Parasite', 'Bong Joon-ho', '2019-05-30', "Donnie Wahlberg",
+'Una familia pobre se infiltra en la vida de una familia rica, desatando una serie de eventos inesperados.', 5 ,'parasite.jpeg'), 
+(6, 'Gladiador', 'Ridley Scott', '2000-05-05', "Russell Crowe",
+'Un general romano es traicionado y se convierte en gladiador, buscando venganza contra el emperador que destruyó su vida.', 6 ,'gladiador.jpg'), 
+(7, 'Forrest Gump', 'Robert Zemeckis', '1994-07-06', "Tom Hanks",
+'La vida extraordinaria de un hombre con un coeficiente intelectual bajo que, a pesar de sus limitaciones, vive momentos clave de la historia de EE.UU.', 2 ,'forrestgump.jpg'), 
+(8, 'Matrix', 'Lana y Lilly Wachowski', '1999-03-31', "Keanu Reeves",
+'Un programador descubre que la realidad es una simulación y se une a un grupo de rebeldes para liberarse.', 3 ,'matrix.jpg'), 
+(9, 'Coco', 'Lee Unkrich', '2017-11-22', "Anthony Gonzalez",
+'Un joven aspira a ser músico y, tras un accidente, se encuentra en la Tierra de los Muertos, donde busca su legado familiar.', 7 ,'coco.jpeg'), 
+(10, 'Titanic', 'James Cameron', '1997-12-19', "Leonardo DiCaprio",
+'La historia de amor entre Jack y Rose a bordo del fatídico viaje del Titanic.', 8 ,'titanic.jpeg'), 
+(11, 'Mad Max: Fury Road', 'George Miller', '2015-05-15', "Tom Hardy",
+'En un mundo postapocalíptico, un grupo de rebeldes lucha por la libertad mientras escapan de un tirano.', 6 ,'madmax.jpeg'), 
+(12, 'El Resplandor', 'Stanley Kubrick', '1980-05-23', "Jack Nicholson",
+'Un escritor se convierte en el cuidador de un hotel aislado, donde su locura y la influencia sobrenatural lo llevan a la violencia.', 1 ,'elresplandor.jpg'), 
+(13, 'El Club de la Pelea', 'David Fincher', '1999-10-15', "Edward Norton",
+'Un hombre desencantado inicia un club clandestino de lucha, cuestionando su identidad y el consumismo moderno.', 2 ,'elclubdelapelea.jpeg'), 
+(14, 'Her', 'Spike Jonze', '2013-12-18', "Joaquin Phoenix",
+'Un hombre desarrolla una relación romántica con un sistema operativo de inteligencia artificial.', 8 ,'her.jpg'), 
+(15, 'La Forma del Agua', 'Guillermo del Toro', '2017-12-01', "Sally Hawkins",
+'Una mujer muda se enamora de una criatura acuática en un laboratorio gubernamental durante la Guerra Fría.', 1 ,'laformadelagua.jpg'), 
+(16, 'El Gran Hotel Budapest', 'Wes Anderson', '2014-03-28', "Ralph Fiennes",
+'Las aventuras de un conserje y su protegido en un famoso hotel europeo entre las dos guerras mundiales.', 10 ,'elgranhotel.jpeg');
+
 
 -- --------------------------------------------------------
 
@@ -61,8 +93,16 @@ CREATE TABLE `categorias` (
 --
 
 INSERT INTO `categorias` (`id`, `nombre`) VALUES
-(1, 'holi');
-
+(1, 'Terror'),
+(2, 'Drama'),
+(3, 'Ciencia Ficción'),
+(4, 'Musical'),
+(5, 'Thriller'),
+(6, 'Acción'),
+(7, 'Animación'),
+(8, 'Romance'),
+(9, 'Fantasía'),
+(10, 'Comedia');
 --
 -- Índices para tablas volcadas
 --

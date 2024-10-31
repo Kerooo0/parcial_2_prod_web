@@ -7,7 +7,7 @@
     <div class="panel-body">
       <div class="row">
         <div class="col-md-3">
-          <img class="img-responsive" src="<?php echo URL;?>Views/_template/imagenes/avatars/<?php echo $datos['imagen']; ?>">
+          <img class="img-responsive" src="<?php echo URL;?>Views/_template/imagenes/peliculas/<?php echo $datos['imagen']; ?>">
         </div>
         <div class="col-md-9">
           <ul class="list-group">

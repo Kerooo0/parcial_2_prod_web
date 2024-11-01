@@ -12,6 +12,7 @@ footer{
 	font-size: 14px;
 	padding: 10px;
 	text-align: center;
+	color: blueviolet;
 }
 
 .box-principal{
@@ -52,6 +53,7 @@ footer{
 	background-color: grey;
 }
 
+
 .btn-warning{
 	background-color: orange;
 }
@@ -62,4 +64,35 @@ footer{
 
 .navbar-header{
 	color: grey;
+}
+
+.enlace_ver{
+	text-decoration: none;
+	color:blueviolet
+}
+
+.enlace_ver:hover{
+	text-decoration: none;
+	color:yellowgreen
+}
+
+.imagen-avatar{
+	transition: transform 0.3s ease;
+}
+
+.imagen-avatar:hover{
+transform: scale(1.2);
+}
+
+
+.navbar-header .navbar-brand{
+	color: blue;
+}
+
+.dropdown-menu:hover{
+background-color:white;
+}
+
+.box-principal .panel-heading{
+	background-color:yellow
 }

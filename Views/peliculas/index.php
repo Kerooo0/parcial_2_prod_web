@@ -21,7 +21,7 @@
 		  	<?php while($row = mysqli_fetch_array($datos)){ ?>
 		  	<tr>
 		  			<td><img class="imagen-avatar" src="<?php echo URL; ?>Views/_template/imagenes/peliculas/<?php echo $row['imagen']; ?>"></td>
-					<td><a href="<?php echo URL; ?>peliculas/ver/<?php echo $row['id']; ?>"><?php echo $row['nombre']; ?></a></td>
+					<td><a class="enlace_ver" href="<?php echo URL; ?>peliculas/ver/<?php echo $row['id']; ?>"><?php echo $row['nombre']; ?></a></td>
 			    	<td><?php echo $row['director']; ?></td>
 			    	<td><?php echo $row['sinopsis']; ?></td>
 			    	<td><?php echo $row['actor_principal']; ?></td>

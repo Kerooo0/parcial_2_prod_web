@@ -1,11 +1,14 @@
 body{
 	padding-top: 70px;
 	padding-bottom: 20px;
+	font-family: 'Bebas Neue'; 
+    font-size: 16px;
+	background-image: url(../imagenes/peliculas/fondo1.jpg);
 }
 
 footer{
-	background-color: #EEE;
-	border-top: 10px solid #BBB;
+	background-color:  rgba(238, 231, 231, 0.849);
+	border-top: 10px solid rgb(245, 235, 235);
 	font-size: 14px;
 	padding: 10px;
 	text-align: center;
@@ -15,12 +18,48 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
+	
 }
+
+
 .titulo{
 	text-align: center;
+	background-color: tomato;
+	
 }
 .imagen-avatar{
 	height: 50px;
 	width: 50px;
+	
 }
 
+
+.panel-heading, .titulo {
+	background-color: whitesmoke;
+}
+
+.panel-title {
+	background-color: whitesmoke;
+	color: grey;
+}
+
+
+.panel-body{
+	background-color: whitesmoke;
+}
+
+.btn-success {
+	background-color: grey;
+}
+
+.btn-warning{
+	background-color: orange;
+}
+
+.navbar{
+	background-color: rgba(238, 231, 231, 0.849);
+}
+
+.navbar-header{
+	color: grey;
+}

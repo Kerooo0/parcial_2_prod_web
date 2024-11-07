@@ -9,10 +9,10 @@ body{
 footer{
 	background-color:  rgba(238, 231, 231, 0.849);
 	border-top: 10px solid rgb(245, 235, 235);
-	font-size: 14px;
+	font-size: 17px;
 	padding: 10px;
 	text-align: center;
-	color: blueviolet;
+	color: rgb(230, 184, 98);
 }
 
 .box-principal{
@@ -23,14 +23,9 @@ footer{
 }
 
 
-.titulo{
-	text-align: center;
-	background-color: tomato;
-	
-}
 .imagen-avatar{
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 70px;
 	
 }
 
@@ -50,13 +45,13 @@ footer{
 }
 
 .btn-success {
-	background-color: grey;
+	background-color: burlywood;
 }
 
-
-.btn-warning{
-	background-color: orange;
+.btn-success:hover {
+	background-color: burlywood;
 }
+
 
 .navbar{
 	background-color: rgba(238, 231, 231, 0.849);
@@ -68,12 +63,12 @@ footer{
 
 .enlace_ver{
 	text-decoration: none;
-	color:blueviolet
+	color: black;
 }
 
 .enlace_ver:hover{
 	text-decoration: none;
-	color:yellowgreen
+	color: rgb(211, 142, 15);
 }
 
 .imagen-avatar{
@@ -85,14 +80,127 @@ transform: scale(1.2);
 }
 
 
-.navbar-header .navbar-brand{
-	color: blue;
+.navbar-header .navbar-brand {
+    color: wheat;
 }
-
 .dropdown-menu:hover{
 background-color:white;
 }
 
 .box-principal .panel-heading{
-	background-color:yellow
+	background-color: wheat;
 }
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: currentcolor;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: wheat;
+}
+
+
+.titulo {
+    font-size: 40px;      
+    text-align: center;     
+	padding-top: 25px; 
+    color: rgba(0, 0, 0, 0.685);            
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: inherit;
+}
+
+.panel-success > .panel-heading {
+    color: #212121;
+    background-color: wheat;
+}
+
+.panel-heading, .titulo {
+    background-color: wheat;
+}
+
+.panel-title {
+    background-color: wheat;
+}
+
+.table th, .table td {
+    padding: 15px; 
+    font-size: 18px; 
+    height: 50px; 
+}
+
+.table th {
+    color: rgb(75, 74, 74); 
+    font-size: 20px;
+}
+
+
+.btn-warning {
+    background-color: black;
+}
+
+.btn-warning:hover{
+	background-color: rgba(12, 12, 12, 0.432);
+}
+
+
+
+
+.btn-danger {
+    color: #ffffff;
+    background-color: red;
+}
+
+/**agregar pelicula///**/
+
+.form-horizontal .form-group .control-label {
+    font-size: 18px; 
+}
+
+.form-horizontal .form-group .form-control {
+    font-size: 18px; 
+}
+
+.form-horizontal .form-group .btn {
+    font-size: 16px; 
+}
+
+
+.panel-title {
+    font-size: 18px; 
+}
+
+
+.btn-warning:hover {
+    background-color: rgb(88, 87, 87); 
+    
+}
+
+.btn-danger:hover {
+ background-color: rgb(226, 33, 33);
+}
+
+/*/*LISTADO DE PELICULA/////***************/
+.table {
+    font-size: 20px; 
+}
+
+.table th, .table td {
+    font-size: 20px; 
+}
+
+.panel-title {
+    font-size: 25px; 
+}
+
+.titulo {
+    font-size: 30px; 
+}
+
+
